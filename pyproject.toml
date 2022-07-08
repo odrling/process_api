@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "process_api"
+version = "1.0.0"
+description = "An API for PragmaDev Process"
+authors = ["odrling <florianbadie@odrling.xyz>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.78.0"}
+aiofiles = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
